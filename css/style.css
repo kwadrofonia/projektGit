@@ -1,0 +1,136 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+}
+
+a, ul {
+    text-decoration: none;
+    color:grey;
+    list-style:none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Container*/
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 35px black;
+}
+
+/* header */
+header {
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+}
+
+/*brand*/
+.brand a,
+.brand img {
+    display: block;
+}
+
+/*MENU*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav a {
+    color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    /* display: block; */
+}
+
+nav a:hover {
+    background: black;
+    color:white;
+}
+
+/*SLIDER*/
+.slider {
+    display: block;
+}
+
+/*Main*/
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Article*/
+article {
+    width: 70%; 
+    padding: 30px;
+}
+
+
+/*Aside*/
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border-left: 1px solid rgba(128, 128, 128, 0.36);
+    margin: 20px;
+    font-family: 'Rokkitt', serif;    
+}
+
+.widget {
+	margin-bottom: 40px;
+}
+
+.widget img {
+	float: left;
+	margin: 0 12px 5px 0;
+}
+
+.widget ul {
+	list-style-type: square;
+	padding: 0 0 0 18px;
+	margin: 0;
+}
+
+.widget li {
+	margin-bottom: 15px;
+} 
+
+
+
+
+
+
+
+
+/*Footer*/
+footer {
+    background: whitte;
+    border-top: 1px solid white;
+    padding: 22px 15px;
+    text-align: center;
+}
+footer p {
+    margin: 0px;
+}
